@@ -1,29 +1,14 @@
-*,*:before,*::after{
-    box-sizing: border-box;
+*,*::before,*::after{
+   box-sizing:border-box;
 }
 
 *{
-    margin:0;
-    padding:0;
+   margin: 0 0 0 0;
+   padding: 0 0 0 0;
 }
 
 body{
-    font-family: 'Rubik', sans-serif;
-    display:flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    background-color: var(--white);
-    
+   position:relative;
+   overflow-x:hidden;
 }
-
-@media (min-width:1440px){
-    body{
-        flex-direction: row;
-        display:block;
-        border: 1px solid red;
-        /* margin:3rem 0; */
-    }
-}
-
 

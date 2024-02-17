@@ -1,27 +1,18 @@
 .outside-text{
-    text-align: center;
-    margin:3rem 2rem;
+  text-align: center;
+  margin:1.5rem;
+  
 }
 
-.outside-text *{
-    margin:1rem 0;
+.outside-text > *{
+   margin:1rem;
 }
-
 .outside-text h1{
-    font-size:2rem;
-    font-weight: 500;
-    color: var(--dark-desaturated-violet);
+   color: var(--primary-very-dark-desaturated-violet);
+   font-size:2.5rem;
+   text-wrap: nowrap;
 }
 
 .outside-text p{
-    color:var(--dark-grayish-violet);
-    line-height: 1.5;
-}
-
-@media (min-width:1440px){
-    .outside-text{
-        /* flex:1; */
-        width:30%;
-        height:30%;
-    }
+   color: var(--primary-grayish-blue);
 }
