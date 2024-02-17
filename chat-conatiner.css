@@ -1,0 +1,10 @@
+.chat-container{
+   /* border:1px solid black; */
+   max-width:90%;
+   margin-inline:auto;
+   background-color: var(--secondary-light-grayish-violet);
+   border:8px solid var(--secondary-white);
+   border-radius:30px;
+   box-shadow:3px 3px 5px #8C8C93;
+   
+}

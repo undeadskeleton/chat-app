@@ -1,0 +1,54 @@
+.status-container svg{
+   margin-top:2.3rem;
+   height:1.3rem;
+   color:var(--secondary-white);
+}
+
+.status-container{
+   position:relative;
+   background: linear-gradient(
+   -90deg,
+   var(--primary-light-magenta),
+   var(--primary-light-violet)
+   );
+   border-radius:30px 30px 5px 5px;
+   display:flex;
+   align-items:center;
+   padding: 0.5rem ;
+}
+
+.notch {
+   position: absolute;
+   top: 0;
+   left: 20%;
+   min-width: 60%;
+   min-height: 2rem;
+   background-color: var(--secondary-white);
+   border-radius: 0 0 50px 50px;
+
+}
+
+.contact{
+   margin-top:2.3rem;
+   flex:3;
+   display:flex;
+   gap:0.6rem;
+}
+
+.contact img{
+   width:2rem;
+   height:2rem;
+   border-radius: 50%;
+   border:1px solid var(--secondary-white);
+}
+
+.name-status p:first-child{
+   color:var(--secondary-white);
+   font-weight:700;
+}
+
+.name-status p:last-child{
+   font-size:0.6rem;
+   color: var(--secondary-white);
+}
+

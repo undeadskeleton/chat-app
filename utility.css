@@ -1,0 +1,23 @@
+:root {
+   /* Primary Colors */
+  --primary-pale-violet: #D89EFF; /* Sub-heading (hsl) */
+  --primary-moderate-violet: #9241C8; /* Chat left (hsl) */
+  --primary-desaturated-dark-violet: #6E5D7E; /* Chat right (hsl) */
+  --primary-grayish-blue: #C6CACD; /* Placeholder text (hsl) */
+  --primary-very-dark-desaturated-violet: #3E2753; /* Main heading (hsl) */
+  --primary-dark-grayish-violet: #A39DAA; /* Paragraph (hsl) */
+  --primary-light-magenta: #E942FF; /* Gradient start (hsl) */
+  --primary-light-violet: #8838FF; /* Gradient end (hsl) */
+
+
+/* Secondary Colors */
+--secondary-white: #FFFFFF; /* White (hsl) */
+--secondary-light-grayish-violet: #F5F3F7; /* App background (hsl) */
+--secondary-very-dark-desaturated-violet: #3E2753; /* Submit button (hsl) */
+--secondary-very-light-magenta: #E570FF; /* Radio button outline (hsl) */
+
+/* Typography and other styles can be defined here as needed */
+
+font-family: "Rubik", sans-serif;
+font-size:16px;
+}

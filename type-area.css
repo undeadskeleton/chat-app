@@ -1,0 +1,27 @@
+.type-area{
+   max-width:100%;
+   background-color: var(--secondary-white);
+   margin-inline: 0.4rem;
+   border-radius:20px;
+   display:flex;
+   justify-content: space-between;
+   align-items: center;
+}
+
+.type-area svg{
+   width:1.6rem;
+   background-color: var(--secondary-very-light-magenta);
+   border-radius: 50%;
+   font-size:0.6rem;
+   margin:0.2rem;
+   padding:0.2rem;
+   color: var(--secondary-white);
+   background-color:var(--secondary-very-dark-desaturated-violet);
+}
+
+.type-area p{
+   margin:0.5rem 0 0.5rem 3rem;
+   font-size:0.7rem;
+   color:var(--secondary-light-grayish-violet);
+   
+}
