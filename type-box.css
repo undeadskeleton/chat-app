@@ -1,0 +1,18 @@
+.type-box{
+   display:flex;
+   background-color: var(--white);
+   justify-content: space-between;
+   align-items:center;
+   padding:0.5rem;
+   border-radius:1rem;
+}
+
+.type-box :first-child{
+   color:var(--grayish-blue);
+}
+.type-box-svg{
+   background-color: var( --dark-desaturated-violet);
+   width:10%;
+   border-radius: 50%;
+   color: var(--white);
+}

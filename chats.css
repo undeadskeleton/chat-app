@@ -1,0 +1,33 @@
+.chats > *{
+/* border: 1px solid red; */
+}
+
+.chats{
+    display: flex;
+    flex-direction: column;
+    width:100%;
+    padding:0.5rem;
+}
+
+.text{
+    max-width: 22ch;
+    margin:0.5rem 0;
+    padding:0.5rem;
+    font-size: 0.6rem;
+    
+}
+
+.right{
+    align-self:flex-end;
+    background-color: var(--white);
+  color:var(--desaturated-dark-violet);
+  border-radius: 10px 10px 5px 10px;
+  box-shadow:2px 2px 10px -1px var(--grayish-blue);
+}
+
+.left{
+    align-self: flex-start;
+    background-color: var(--very-light-magenta);
+    color:var(--moderate-violet);
+    border-radius: 10px 10px 10px 5px;
+}

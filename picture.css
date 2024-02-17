@@ -1,0 +1,22 @@
+.pictures{
+    display:flex;
+    gap:0.5rem;
+    align-self: flex-end;
+    /* border: 1px solid red; */
+    justify-content: flex-end;
+    /* display:inline-block; */
+}
+
+.dog{
+    width:18%;
+    height:18%;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+@media (min-width:1440px){
+    .dog{
+        width:10%;
+        height:10%;
+    }
+}
