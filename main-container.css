@@ -3,3 +3,12 @@
    max-width:100%;
    padding: 1.5rem;
 }
+
+@media (min-width:1440px){
+   .main-container{
+   max-width:60%;
+   margin:3rem auto;
+   display:flex;
+   align-items: center;
+   }
+}
